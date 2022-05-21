@@ -10,7 +10,7 @@ import AddStation from './page/Task_4_API_Server/Station/AddStation';
 import AllStation from './page/Task_4_API_Server/Station/AllStation';
 import { gapi } from 'gapi-script';
 // here use client id
-const clientId="997390170447-rkpk3l9lltfi7d9qbtcukksodou5sc75.apps.googleusercontent.com"
+const clientId="997390170447-lrlbofpt88n3v2q46aq4narhs08v7b95.apps.googleusercontent.com"
 
 function App() {
   // here use function for oauth2.0

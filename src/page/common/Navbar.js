@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
-const clientId ="997390170447-rkpk3l9lltfi7d9qbtcukksodou5sc75.apps.googleusercontent.com"
+const clientId ="997390170447-lrlbofpt88n3v2q46aq4narhs08v7b95.apps.googleusercontent.com"
 const Navbar = () => {
   // const { user ,logOut} = useFirebase();
   const [user,setUser]=useState("")
