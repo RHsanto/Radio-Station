@@ -1,0 +1,27 @@
+
+.box{ 
+border-radius: 50px;
+overflow: hidden;
+
+}
+
+
+.accordion-flush .accordion-item .accordion-button,.accordion-button,.accordion-item {
+  border: 0;
+  color: #000000;
+  padding: 15px;
+  background-color: #DADEE6;
+}
+.accordion-button{
+  border-bottom: 1px solid #000000 !important;
+}
+.box-footer{
+background-color: #22222B;
+height: 80px;
+padding: 10px 0;
+}
+
+
+.accordion-button::after{
+  display: none;
+}

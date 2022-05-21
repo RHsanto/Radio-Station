@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.nav a{
+text-decoration: none;
+color: white;
+font-weight: 500;
+margin-left: 20px;
+}
+
+.UserImg{
+  width: 40px;
+  border-radius: 50px;
+}
+
+.common-section{
+  padding: 50px 0;
+  background-color: #EBF0F4;
+}
+
+
+/* log-in & sign-in */
+.google-btn, .log-btn{
+border: 0;
+padding: 10px;
+color: white;
+
+}
+.flex-btn{
+  background-color: white;
+  border: 0;
+  border: 2px solid #0D6EFD;
+  border-radius: 4px;
+}
+.logIn{
+  margin-top: 100px;
+}
+.g-img{
+  height: 40px;
+  background-color: white;
+}
+
+.simg {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.menubar{
+  background-color: #1E40AF;
+  color: white;
+}
+
+/* station css */
+
+.info{
+  display: grid;
+  grid-template-columns:100px 300px 200px auto;
+  background-color: #0D6EFD;
+  text-align: center;
+  color: white;
+}
+ .div{
+  border: 1px solid white;
+  padding: 20px;
+}
+.station-table{
+  display: grid;
+  grid-template-columns:100px 300px 200px auto;
+  background-color: #dadee6;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
