@@ -1,5 +1,4 @@
 
-import { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './page/common/Navbar';
@@ -8,22 +7,10 @@ import SignIN from './page/Task_4_API_Server/Authentication/SignIN';
 import SignUp from './page/Task_4_API_Server/Authentication/SignUp';
 import AddStation from './page/Task_4_API_Server/Station/AddStation';
 import AllStation from './page/Task_4_API_Server/Station/AllStation';
-import { gapi } from 'gapi-script';
-// here use client id
-const clientId="997390170447-lrlbofpt88n3v2q46aq4narhs08v7b95.apps.googleusercontent.com"
+
 
 function App() {
-  // here use function for oauth2.0
- useEffect(()=>{
-   function start(){
-     gapi.client.init({
-      clientId:clientId,
-      scope:""
-     })
-   };
-   gapi.load("client:auth2",start)
- })
-  
+
   return (
     <div className="App">
        <BrowserRouter>
@@ -36,9 +23,6 @@ function App() {
           <Route path='/add-station' element={ <AddStation/>} />
         </Routes>
       </BrowserRouter>
-     
-    
-  
     </div>
   );
 }
